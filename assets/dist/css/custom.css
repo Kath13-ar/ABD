@@ -1,0 +1,117 @@
+/* .main-sidebar {
+    background-color: red !important; 
+}
+
+.main-sidebar .nav-link, 
+.main-sidebar .brand-text, 
+.main-sidebar .user-panel a {
+    color: white !important; 
+}
+
+.main-sidebar .nav-icon {
+    color: white !important;
+}
+.main-header {
+    background-color: red !important; 
+}
+
+.main-header .nav-link, 
+.main-header .navbar-brand, 
+.main-header .fas {
+    color: white !important; 
+}
+.nav-sidebar .nav-treeview>.nav-item>.nav-link {
+    background-color: darkred !important; 
+    color: white !important; 
+}
+
+.nav-sidebar .nav-treeview>.nav-item>.nav-link:hover {
+    background-color: crimson !important; 
+} */
+
+
+
+/* Sidebar principal */
+.main-sidebar {
+    background-color: #2b2b2b !important; /* Fondo negro */
+    color: white !important; /* Texto blanco */
+}
+
+.main-sidebar .nav-link, 
+.main-sidebar .brand-text, 
+.main-sidebar .user-panel a {
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.main-sidebar .nav-link:hover {
+    background-color: #FF0000 !important; /* Fondo rojo al pasar el cursor */
+    color: white !important; /* Texto blanco */
+}
+
+.main-sidebar .nav-icon {
+    color: #e63946 !important; /* Iconos rojos */
+}
+
+/* Header principal */
+.main-header {
+    background-color: #e63946 !important; /* Fondo rojo */
+    color: white !important; /* Texto blanco */
+}
+
+.main-header .nav-link, 
+.main-header .navbar-brand, 
+.main-header .fas {
+    color: #ffffff !important; /* Letras e iconos blancos */
+}
+
+/* Submenú en el sidebar */
+.nav-sidebar .nav-treeview>.nav-item>.nav-link {
+    background-color: #333333 !important; /* Fondo gris oscuro */
+    color: #ffffff !important; /* Texto blanco */
+}
+
+.nav-sidebar .nav-treeview>.nav-item>.nav-link:hover {
+    background-color: #e63946 !important; /* Fondo rojo al pasar el cursor */
+    color: white !important; /* Texto blanco */
+}
+
+/* Enlace activo */
+.nav-sidebar .nav-item>.nav-link.active {
+    background-color: #e63946 !important; /* Fondo rojo */
+    color: white !important; /* Texto blanco */
+}
+
+/* Botones */
+button, .btn {
+    background-color: #e63946 !important; /* Fondo rojo */
+    color: white !important; /* Texto blanco */
+    border: none !important; /* Sin borde */
+}
+
+button:hover, .btn:hover {
+    background-color: #cc2c39 !important; /* Rojo oscuro al pasar el cursor */
+    color: white !important; /* Texto blanco */
+}
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+}
+
+/* Tablas */
+.table {
+    background-color: white; /* Fondo blanco */
+    border: 1px solid #ddd; /* Bordes grises */
+    color: #333; /* Texto oscuro */
+}
+
+.table th {
+    background-color: #e63946 !important; /* Fondo rojo en encabezados */
+    color: white !important; /* Texto blanco */
+}
+
+.table tbody tr:hover {
+    background-color: #f7d6d6 !important; /* Fondo rojo claro al pasar el cursor */
+}
